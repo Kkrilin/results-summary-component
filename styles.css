@@ -6,9 +6,7 @@
   box-sizing: border-box;
   /* font-family: Hanken Grotesk; */
 }
-p {
-  /* font-size: 18px; */
-}
+
 body {
   display: flex;
   justify-content: center;
@@ -166,3 +164,12 @@ body .main-container .right-container {
       .attribution a {
         color: hsl(228, 45%, 44%);
       } */
+
+@media only screen and (max-width: 580px) {
+  body .main-container {
+    flex-direction: column;
+    width: 240px;
+    /* max-width: 480px; */
+    height: 500px;
+  }
+}
